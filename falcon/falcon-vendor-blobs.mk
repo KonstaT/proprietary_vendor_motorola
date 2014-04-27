@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/falcon/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/falcon/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/falcon/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/motorola/falcon/proprietary/bin/moto_com.sh:system/bin/moto_com.sh \
     vendor/motorola/falcon/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/falcon/proprietary/bin/sapd:system/bin/sapd \
@@ -206,9 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/motorola/falcon/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/falcon/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/falcon/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/falcon/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/motorola/falcon/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/falcon/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/falcon/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \

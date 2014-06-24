@@ -17,6 +17,19 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/motorola/falcon/overlay
 
-PRODUCT_PACKAGES += libtime_genoff
-
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
+
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    qcrilmsgtunnel \
+    TimeService
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+# Prebuilt vendor/libs needed for compilation
+PRODUCT_PACKAGES += \
+    libtime_genoff

@@ -190,6 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/motorola/falcon/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/falcon/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/motorola/falcon/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/falcon/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/falcon/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/falcon/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
@@ -199,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/falcon/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/falcon/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/falcon/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -221,6 +223,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/motorola/falcon/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/falcon/proprietary/xt1033/bin/rild:system/xt1033/bin/rild \
-    vendor/motorola/falcon/proprietary/xt1033/lib/libril.so:system/xt1033/lib/libril.so
+    vendor/motorola/falcon/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt

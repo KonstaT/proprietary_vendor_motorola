@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/lib/hw/audio_policy.msm8226.so:system/lib/hw/audio_policy.msm8226.so \
     vendor/motorola/falcon/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
     vendor/motorola/falcon/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/falcon/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \

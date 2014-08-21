@@ -22,6 +22,8 @@ $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    com.qualcomm.services.location \
+    MotGeoFenceSvc \
     qcrilmsgtunnel \
     TimeService
 

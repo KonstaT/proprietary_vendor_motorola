@@ -19,19 +19,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/motorola/falcon/overlay
 
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
 
-# Prebuilt APKs
-PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
-    MotGeoFenceSvc \
-    qcrilmsgtunnel \
-    TimeService
-
-# Prebuilt jars
-PRODUCT_PACKAGES += \
-    qcnvitems \
-    qcrilhook
-
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff

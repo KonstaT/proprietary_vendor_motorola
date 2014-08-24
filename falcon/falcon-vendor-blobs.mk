@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/falcon/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/falcon/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/motorola/falcon/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/falcon/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/falcon/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/falcon/proprietary/etc/quipc.conf:system/etc/quipc.conf \
@@ -205,8 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/falcon/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/falcon/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/falcon/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/motorola/falcon/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/falcon/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/falcon/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \

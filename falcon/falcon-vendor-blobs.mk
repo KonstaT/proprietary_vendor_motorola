@@ -200,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/motorola/falcon/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/falcon/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/motorola/falcon/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/falcon/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/falcon/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/falcon/proprietary/bin/rmt_storage:system/bin/rmt_storage \

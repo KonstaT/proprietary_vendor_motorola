@@ -19,6 +19,3 @@ DEVICE_PACKAGE_OVERLAYS += vendor/motorola/falcon/overlay
 
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
 
-# Prebuilt vendor/libs needed for compilation
-PRODUCT_PACKAGES += \
-    libtime_genoff

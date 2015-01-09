@@ -123,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/motorola/falcon/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/motorola/falcon/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/falcon/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/falcon/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/falcon/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \

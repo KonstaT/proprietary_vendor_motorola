@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/motorola/falcon/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/falcon/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/falcon/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/motorola/falcon/proprietary/bin/moto_com.sh:system/bin/moto_com.sh \
     vendor/motorola/falcon/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/falcon/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -105,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/falcon/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/motorola/falcon/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/falcon/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/falcon/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/falcon/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/motorola/falcon/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/falcon/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
-    vendor/motorola/falcon/proprietary/bin/refuse:system/bin/refuse \
     vendor/motorola/falcon/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
@@ -171,11 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/falcon/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/falcon/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/motorola/falcon/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/motorola/falcon/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/motorola/falcon/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/motorola/falcon/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/motorola/falcon/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/falcon/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/falcon/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -227,5 +221,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/falcon/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/motorola/falcon/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/falcon/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
+    vendor/motorola/falcon/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt

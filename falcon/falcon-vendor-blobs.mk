@@ -207,7 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/falcon/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/motorola/falcon/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
-    vendor/motorola/falcon/proprietary/etc/firmware/aps-Falc-01210000-0121-falcon.tdat:system/etc/firmware/aps-Falc-01210000-0121-falcon.tdat \
+    vendor/motorola/falcon/proprietary/etc/firmware/aps-Falc-01300000-0130-falcon.tdat:system/etc/firmware/aps-Falc-01300000-0130-falcon.tdat \
     vendor/motorola/falcon/proprietary/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat:system/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat \
     vendor/motorola/falcon/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/falcon/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \

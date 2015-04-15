@@ -199,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/falcon/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/falcon/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/falcon/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
